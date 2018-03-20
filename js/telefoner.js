@@ -2,12 +2,12 @@ $(function() {
     var telefon = [
 
 
-        { name: 'Samsung TV', price: 1500, id: 1, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
-        { name: 'Camera', price: 755, id: 2, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
-        { name: 'Shampoo', price: 25, id: 3, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
-        { name: 'Tandborste', price: 20, id: 4, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
-        { name: 'Kontor Stol', price: 800, id: 5, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
-        { name: 'Skrivbord', price: 2000, id: 6, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
+        { name: 'Iphone 7', price: 1500, id: 22, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
+        { name: 'iphone 7 plus', price: 755, id: 23, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
+        { name: 'Samsung 9', price: 25, id: 24, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
+        { name: 'Sony', price: 20, id: 25, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
+        { name: 'HTC', price: 800, id: 26, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
+        { name: 'Motorola', price: 2000, id: 27, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
     ];
 
     var cart = [];

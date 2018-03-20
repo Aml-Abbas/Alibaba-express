@@ -2,12 +2,12 @@ $(function() {
     var klader = [
 
 
-        { name: 'Samsung TV', price: 1500, id: 1, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
-        { name: 'Camera', price: 755, id: 2, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
-        { name: 'Shampoo', price: 25, id: 3, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
-        { name: 'Tandborste', price: 20, id: 4, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
-        { name: 'Kontor Stol', price: 800, id: 5, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
-        { name: 'Skrivbord', price: 2000, id: 6, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
+        { name: 'PEAK PERFORMANCE', price: 1500, id: 41, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
+        { name: 'Trollveggen Warm2 Jacket', price: 755, id: 42, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
+        { name: 'JORDAN J B. Fly ', price: 25, id: 43, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
+        { name: 'NIKE M Tanjun', price: 20, id: 44, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
+        { name: 'ADIDAS J Yb Logo Tee', price: 800, id: 45, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
+        { name: 'ADIDAS M Dame 4', price: 2000, id: 46, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
     ];
 
     var cart = [];

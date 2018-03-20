@@ -2,12 +2,12 @@ $(function() {
     var leksaker = [
 
 
-        { name: 'Samsung TV', price: 1500, id: 1, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
-        { name: 'Camera', price: 755, id: 2, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
-        { name: 'Shampoo', price: 25, id: 3, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
-        { name: 'Tandborste', price: 20, id: 4, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
-        { name: 'Kontor Stol', price: 800, id: 5, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
-        { name: 'Skrivbord', price: 2000, id: 6, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
+        { name: 'KidKraft Lekstuga Trä', price: 1500, id: 10, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=0', category: 'Elektronik' },
+        { name: 'Pinepeak Barncykel ', price: 755, id: 12, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=30', category: 'Elektronik' },
+        { name: 'Mercedes Gåbil SLS', price: 25, id: 13, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=100', category: 'Hemmet' },
+        { name: 'Alexs Garage Bilbana ', price: 20, id: 14, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=20', category: 'Hemmet' },
+        { name: 'Alexs Garage Lastbil', price: 800, id: 15, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=10', category: 'Kontor' },
+        { name: 'LEGO Förvaring 8', price: 2000, id: 16, description: ' aperiam similique in quidem, iste nemo debitis quaerat nisi!', picture: 'https://picsum.photos/220/120/?image=400', category: 'Kontor' }
     ];
 
     var cart = [];
