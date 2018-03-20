@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.top {
+    background: red;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Kundvagnen {
+    width: 100vw;
+}
+
+.mid {
+    width: 100vw;
+    height: 400px;
+    background-color: green;
+}
+
+.carousel-item_1 {
+    background: url("../img/klader/1.jpg");
+    background-size: cover;
+}
+
+.carousel-item_2 {
+    background: url("../img/telefon/samsung.jpg");
+    background-size: cover;
+}
+
+.carousel-item_3 {
+    background: url("../img/leksaker/1.jpeg");
+    background-size: cover;
+}
+
+.carousel-item_4 {
+    background: url("../img/sport/Smith-Machine.jpg");
+    background-size: 100%;
+}
+
+.category {
+    width: 100vw;
+    padding: 20px;
+    background-color: red;
+    margin-top: 10px;
+    box-shadow: 2px 5px 10px black;
+}
+
+.category h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 40pX;
+}
+
+.category .products ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category .products .item {
+    width: 220px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.category .products .item .item_top {
+    height: 40%;
+    width: 100%;
+}
+
+.category .products .item .item_top img {
+    border-radius: 10px 10px 0 0;
+}
+
+.category .products .item .item_mid {
+    height: 40%;
+    width: 100%;
+    padding: 5px;
+}
+
+.category .products .item .item_mid h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.category .products .item .item_bot {
+    height: 20%;
+    width: 100%;
+}
+
+.category .products .item .item_bot button {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
