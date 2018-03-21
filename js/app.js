@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 $(function() {
-    $.getJSON("../js/app.json", function(result) {
+    $.getJSON("js/app.json", function(result) {
         var electronic = result.electronic;
         var klader = result.klader;
         var leksaker = result.leksaker;
