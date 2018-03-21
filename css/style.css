@@ -4,96 +4,74 @@
     padding: 0;
 }
 
-.top {
-    background: red;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-}
-
-.Kundvagnen {
-    width: 100vw;
+marquee {
+    color: red;
+    padding: 5px;
 }
 
 .mid {
     width: 100vw;
-    height: 400px;
 }
 
-.carousel-item_1 {
-    background: url("../img/klader/1.jpg");
-    background-size: cover;
+.carousel {
+    margin-top: 20px;
+    max-height: 600px;
+    position: relative;
 }
 
-.carousel-item_2 {
-    background: url("../img/telefon/samsung.jpg");
-    background-size: cover;
+.carousel h1 {
+    padding: 5px;
+    width: 300px;
 }
 
-.carousel-item_3 {
-    background: url("../img/leksaker/1.jpeg");
-    background-size: cover;
-}
-
-.carousel-item_4 {
-    background: url("../img/sport/Smith-Machine.jpg");
-    background-size: 100%;
+.carousel img {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .category {
-    width: 100vw;
-    padding: 50px;
+    position: relative;
+    height: 100vh;
+    padding: 100px 10px;
     margin-top: 20px;
-    box-shadow: 2px 5px 10px black;
-}
-
-.electronic {
-    background: linear-gradient(red, rgb(4, 0, 255));
-}
-
-.klader {
-    background: linear-gradient( rgb(4, 0, 255), rgb(37, 248, 118));
-}
-
-.leksaker {
-    background: linear-gradient(rgb(37, 248, 118), rgba(253, 228, 0, 0.479));
-}
-
-.telefon {
-    background: linear-gradient( rgba(253, 228, 0, 0.479), #000);
-}
-
-.sport {
-    background-color: #000;
+    background-color: #F0F0F0;
+    box-shadow: 2px 1px 20px #EAEAEA;
+    overflow: scroll;
 }
 
 .category h1 {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 40pX;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .category .products ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .category .products .item {
-    width: 220px;
-    height: 350px;
+    width: 290px;
+    height: 450px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1px;
     margin: 10px;
 }
 
 .category .products .item .item_top {
     height: 40%;
     width: 100%;
-}
-
-.category .products .item .item_top img {
-    border-radius: 10px 10px 0 0;
 }
 
 .category .products .item .item_mid {
@@ -118,10 +96,24 @@
     width: 100px;
 }
 
+.top_btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
 footer {
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     margin-top: 100px;
+}
+
+footer p {
+    display: inline;
+}
+
+footer p:nth-child(2) {
+    float: right;
 }
