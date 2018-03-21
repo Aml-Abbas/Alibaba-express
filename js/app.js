@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     function autoplay() {
         $('.carousel').carousel('next');
-        setTimeout(autoplay, 4500);
+        setTimeout(autoplay, 3000);
     }
     $('.collapsible').collapsible();
     $('.scrollspy').scrollSpy();
@@ -18,12 +18,11 @@ $(function() {
         var leksaker = result.leksaker;
         var sport = result.sport;
         var telefon = result.telefon;
-
         var cart = [];
 
         var appendList = function(array, location) {
             var template = array.map(function(item, id) {
-                return `<li class="product">
+                return `<li class="${item.category} product">
             <div class="item z-depth-1">
                 <div class="item_top">
                     <img src="${item.picture}" alt="">
@@ -34,7 +33,7 @@ $(function() {
                     <p>${item.description}</p>
                 </div>
                 <div class="item_bot">
-                    <button id="${item.id}" class="btn red">köp</button>
+                    <button id="${item.id}" class="btn waves-effect red">köp</button>
                 </div>
             </div>
         </li>`;
@@ -50,12 +49,6 @@ $(function() {
             var item = `
         <li id="${a.id}"><a href="#!">${a.name}  <i class="material-icons">clear</i></a> </li>
       `;
-            // 
-
-
-
-
-
             $('span.amount').text(cart.length);
             $(location).append(item);
         };
@@ -82,10 +75,26 @@ $(function() {
         appendList(sport, $('.sport-list'));
         appendList(telefon, $('.telefon-list'));
 
-        $('.product').on('click', 'button', function(event) {
+        $('.electronic.product').on('click', 'button', function() {
             var id = $(this).attr('id');
             addToCart(electronic, +id, $('.cart-list'));
 
+        });
+        $('.klader.product').on('click', 'button', function() {
+            var id = $(this).attr('id');
+            addToCart(klader, +id, $('.cart-list'));
+        });
+        $('.leksaker.product').on('click', 'button', function() {
+            var id = $(this).attr('id');
+            addToCart(leksaker, +id, $('.cart-list'));
+        });
+        $('.sport.product').on('click', 'button', function() {
+            var id = $(this).attr('id');
+            addToCart(sport, +id, $('.cart-list'));
+        });
+        $('.telefon.product').on('click', 'button', function() {
+            var id = $(this).attr('id');
+            addToCart(telefon, +id, $('.cart-list'));
         });
 
         $('.cart-list').on('click', 'i', function(e) {
